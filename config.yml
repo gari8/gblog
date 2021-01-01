@@ -1,0 +1,117 @@
+baseURL: "https://examplesite.com"
+title: HAGALOG
+paginate: 8
+theme: hugo-PaperMod
+
+enableInlineShortcodes: true
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: true
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: HAGALOG
+  description: "HAGALOG is Tech Blog and so on."
+  author: gari8
+  # author: ["Me", "You"] # multiple authors
+
+  images: "https://avatars3.githubusercontent.com/u/49360378?v=4"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
+
+  cover:
+    image: /brst.svg
+    linkFullImages: false
+    responsiveImages: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  TocOpen: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  displayFullLangName: true
+
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "HAGALOG"
+    icon: /logo.png
+    iconHeight: 36
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: gari8
+    imageUrl: https://avatars3.githubusercontent.com/u/49360378?v=4
+    imageTitle: gari8
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: 投稿一覧
+        url: posts
+
+  # home-info mode
+  homeInfoParams:
+    Title: ""
+    Content:
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/HAGARI06"
+    - name: facebook
+      url: "https://www.facebook.com/hayato.hagari.7/"
+    - name: note
+      url: "https://note.com/gariha_"
+    - name: github
+      url: "https://github.com/gari8"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+
+#taxonomies:
+#  category: categories
+#  tag: tags
+#  series: series
+
+menu:
+  main:
+    - name: 過去記事一覧
+      url: archives
+      weight: 5
+    - name: 🔍
+      url: search/
+      weight: 10
+#    - name: Tags
+#      url: tags/
+#      weight: 10
