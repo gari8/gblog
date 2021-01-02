@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e123f7-bc33-473a-b8fc-34491312c9d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layouts/_default/archives.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/anchored_headings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/cover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/extend_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/extend_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/home_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/index_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/post_meta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/share_icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/social_icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/svg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/templates/opengraph.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/templates/schema_json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/templates/twitter_cards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_redirects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
