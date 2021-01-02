@@ -1,4 +1,5 @@
 baseURL: "https://optimistic-ptolemy-9b61b9.netlify.app"
+languageCode: ja-jp
 title: HAGALOG
 paginate: 8
 theme: hugo-PaperMod
@@ -23,6 +24,8 @@ outputs:
     - JSON # is necessary
 
 params:
+  twitterID: HAGARI06
+  
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: HAGALOG
   description: "HAGALOG is Tech Blog and so on."
@@ -42,7 +45,7 @@ params:
 
   cover:
     image: /brst.svg
-    linkFullImages: false
+    linkFullImages: true
     responsiveImages: true
 
   ShowReadingTime: true
@@ -99,7 +102,7 @@ params:
     google:
       SiteVerificationTag: ""
 
-#taxonomies:
+taxonomies:
 #  category: categories
 #  tag: tags
 #  series: series
