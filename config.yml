@@ -1,4 +1,4 @@
-baseURL: "https://optimistic-ptolemy-9b61b9.netlify.app"
+baseURL: "https://www.gari8.com"
 languageCode: ja-jp
 title: HAGALOG
 paginate: 8
@@ -25,7 +25,7 @@ outputs:
 
 params:
   twitterID: HAGARI06
-  
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: HAGALOG
   description: "HAGALOG is Tech Blog and so on."
