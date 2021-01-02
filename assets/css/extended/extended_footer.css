@@ -1,0 +1,3 @@
+.footer__links {
+    min-height: var(--footer-links-height);
+}
