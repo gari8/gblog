@@ -32,7 +32,7 @@ params:
   author: gari8
   # author: ["Me", "You"] # multiple authors
 
-  images: "https://avatars3.githubusercontent.com/u/49360378?v=4"
+  images: /logo.png
 
   fuseOpts:
     isCaseSensitive: false
@@ -80,13 +80,17 @@ params:
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
-      - name: 投稿一覧
+      - name: 投稿記事
         url: posts
+      - name: カテゴリー
+        url: categories
+      - name: 制作物
+        url: products
 
   # home-info mode
   homeInfoParams:
     Title: ""
-    Content:
+    Content: ""
 
   socialIcons:
     - name: twitter
@@ -103,13 +107,13 @@ params:
       SiteVerificationTag: ""
 
 taxonomies:
-#  category: categories
+  category: categories
 #  tag: tags
 #  series: series
 
 menu:
   main:
-    - name: 過去記事一覧
+    - name: 過去の投稿
       url: archives
       weight: 5
     - name: 🔍

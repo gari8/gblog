@@ -1,4 +1,4 @@
 ---
-title: 記事一覧
+title: Articles
 summary: index
 ---
