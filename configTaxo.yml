@@ -1,7 +1,7 @@
-timeout: 30000
-enableInlineShortcodes: true
+#timeout: 30000
+#enableInlineShortcodes: true
 
-taxonomies:
-  category: categories
+#taxonomies:
+#  category: categories
 #  tag: tags
 #  series: series

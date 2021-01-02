@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e123f7-bc33-473a-b8fc-34491312c9d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/products/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/products/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/products/sprinter.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/products/sprinter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configTaxo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configTaxo.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
