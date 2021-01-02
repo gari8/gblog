@@ -1,5 +1,5 @@
 baseURL: "https://www.gari8.com"
-languageCode: ja-jp
+languageCode: "ja-jp"
 title: HAGALOG
 paginate: 8
 theme: hugo-PaperMod
@@ -11,7 +11,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: true
 
-googleAnalytics: ""
+googleAnalytics: "G-N2LRPNQP0Q"
 
 minify:
   disableXML: true
