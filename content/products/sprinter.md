@@ -24,20 +24,20 @@ categories: [ "Products", "Go", "CLI" ]
 
 ### Conversation
 ```shell
-? [1] Please enter the title of your application
-# enter your application name
-? [2] Please select the database  [Use arrows to move, enter to select, type to filter]
-  Postgres
-> Mysql
-# select database
-? [3] Please select the architecture  [Use arrows to move, enter to select, type to filter]
-> Onion
-  Clean
-  MVC
-# select architecture
+    ? [1] Please enter the title of your application
+    # enter your application name
+    ? [2] Please select the database  [Use arrows to move, enter to select, type to filter]
+      Postgres
+    > Mysql
+    # select database
+    ? [3] Please select the architecture  [Use arrows to move, enter to select, type to filter]
+    > Onion
+      Clean
+      MVC
+    # select architecture
 ```
 
 ### server build
 ```shell
-docker-compose up --build
+  docker-compose up --build
 ```
