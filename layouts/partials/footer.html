@@ -25,7 +25,7 @@
 {{- if not .Site.Params.assets.disableFingerprinting }}
 {{- $highlight := slice (resources.Get "js/highlight.min.js") | resources.Concat "assets/js/highlight.js" | minify | fingerprint }}
 <script defer src="{{ $highlight.Permalink }}" integrity="{{ $highlight.Data.Integrity }}"
-    onload="hljs.initHighlightingOnLoad();"></script>
+        onload="hljs.initHighlightingOnLoad();"></script>
 {{- else}}
 {{- $highlight := slice (resources.Get "js/highlight.min.js") | resources.Concat "assets/js/highlight.js" | minify }}
 <script defer src="{{ $highlight.Permalink }}" onload="hljs.initHighlightingOnLoad();"></script>

@@ -5,6 +5,8 @@ paginate: 8
 theme: hugo-PaperMod
 
 enableInlineShortcodes: true
+pygmentsUseClasses: true
+pygmentsCodefences: true
 
 enableRobotsTXT: true
 buildDrafts: false

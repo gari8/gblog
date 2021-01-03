@@ -8,13 +8,13 @@ categories: [ "Products", "Go", "CLI" ]
 ---
 
 ### Get Started
-```terminal
+```bash
     # binary is created on the go/bin directory.
     go get -u github.com/gari8/sprinter
 ```
 
 ### Command
-```terminal
+```bash
     # Interactive interface launch.
     sprinter -n or -new
     
