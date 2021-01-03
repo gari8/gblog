@@ -37,7 +37,14 @@ categories: [ "Products", "Go", "CLI" ]
     # select architecture
 ```
 
-### server build
+### Build server 
 ```shell
-  docker-compose up --build
+    docker-compose up --build
 ```
+
+### Source-code
+
+> https://github.com/gari8/sprinter
+
+
+`Try using it !!!!😎`
