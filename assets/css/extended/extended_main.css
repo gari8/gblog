@@ -25,3 +25,110 @@ pre > code[data-lang]:before{
 .noTitle:before {
     display: none;
 }
+
+.menu-tab {
+    position: fixed;
+    bottom: 126px;
+    right: 30px;
+    border-radius: 100% 0 0 0;
+    width: 20px;
+    height: 20px;
+    transition: all .9s;
+}
+
+.outer-tab {
+    position: absolute;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: var(--primary);
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .6s;
+}
+
+.tab1 {
+    left: -70px;
+    bottom: -48px;
+}
+
+.tab2 {
+    bottom: 0;
+    left: -92px;
+}
+
+.tab3 {
+    top: -70px;
+    left: -70px;
+}
+
+.tab4 {
+    right: 0;
+    top: -92px;
+}
+
+.outer-tab:hover {
+    background-color: royalblue;
+    transition: background-color .1ms;
+    opacity: 1.0;
+}
+
+.closed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.0;
+    transition: all .1s;
+}
+
+.inner-text {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #7E7E7E;
+}
+
+.inner-tab {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    background-color: var(--primary);
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.inner-tab:hover,
+.inner-tab-pushed:hover {
+    opacity: 1.0;
+}
+
+.inner-tab-pushed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+
+.finger__pointer {
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width:768px) {
+    .inner-tab {
+    }
+}

@@ -1,0 +1,38 @@
+<div class="menu-tab">
+    <div class="outer-tabs">
+        <a class="outer-tab closed" href="/about">
+            <img src="/person.svg">
+        </a>
+        <a class="outer-tab closed" href="/posts">
+            <img src="/posts.svg">
+        </a>
+        <a class="outer-tab closed" href="/products">
+            <img src="/products.svg">
+        </a>
+        <a class="outer-tab closed" href="/categories">
+            <span class="inner-text">C</span>
+        </a>
+    </div>
+    <div class="inner-tab">
+        <img src="/finger.svg" class="finger__pointer">
+    </div>
+</div>
+<script>
+    const iTab = document.getElementsByClassName("inner-tab")[0];
+    const outerList = document.querySelectorAll(".outer-tab");
+    const noList = ["tab1", "tab2", "tab3", "tab4"]
+    let isSelected = false
+
+    // change tab by clicking.
+    iTab.addEventListener("click", (e) => {
+        isSelected = !isSelected;
+        isSelected ? iTab.className = "inner-tab-pushed" : iTab.className = "inner-tab";
+        tabOC(outerList, noList, isSelected);
+    })
+
+    const tabOC = (ls, nLs, flag) => {
+        ls.forEach((item, i) => {
+            flag ? item.className = `outer-tab ${nLs[i]}` : item.className = "outer-tab closed";
+        })
+    }
+</script>

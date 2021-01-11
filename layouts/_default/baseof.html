@@ -18,6 +18,7 @@
         {{- block "main" . }}
         {{- end }}
     </main>
+    {{- partial "menu_tab.html" . }}
     {{- partialCached "footer.html" . .Type .Layout .Params }}
 <script>
     const code = document.querySelectorAll('code')
