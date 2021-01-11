@@ -46,7 +46,7 @@ params:
     keys: [ "title", "permalink", "summary", "content" ]
 
   cover:
-    image: /brst.svg
+    image: /logo.png
     linkFullImages: true
     responsiveImages: true
 
@@ -69,8 +69,8 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "HAGALOG"
-    icon: /logo.png
+    text: "HOME"
+#    icon: /logo.png
     iconHeight: 36
 
   # profile-mode

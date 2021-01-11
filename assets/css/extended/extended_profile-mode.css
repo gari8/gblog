@@ -1,0 +1,10 @@
+.button {
+    padding: 6px 10px;
+}
+
+.button:hover,
+svg:hover,
+a:hover {
+    color: royalblue;
+}
+
