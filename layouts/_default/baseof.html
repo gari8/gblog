@@ -19,6 +19,28 @@
         {{- end }}
     </main>
     {{- partialCached "footer.html" . .Type .Layout .Params }}
+<script>
+    const code = document.querySelectorAll('code')
+    const overWrite = async (slice) => {
+        for await (let part of slice) {
+            if (part.className === "") continue;
+            let str = "";
+            try {
+                let strList = part.dataset.lang.split(":")
+                strList.length === 1 ? str = "" : str = strList[1]
+            } catch {
+                str = ""
+            } finally {
+                if (str) {
+                    part.dataset.lang = str
+                }
+            }
+            if (str === "") {
+                part.className = "noTitle"
+            }
+        }
+    }; overWrite(code)
+</script>
 </body>
 
 </html>
