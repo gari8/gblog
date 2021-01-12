@@ -1,0 +1,58 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+</header>
+
+<form name="contact" class="contact-form" method="POST" data-netlify="true">
+    <p class="input-header">おなまえ　<span class="require-tag">必須</span></p>
+    <p>
+        <label>
+            <input class="input-field" type="text" name="name" />
+        </label>
+    </p>
+    <p class="input-header">メールアドレス　<span class="require-tag">必須</span></p>
+    <p>
+        <label>
+            <input class="input-field" type="email" name="email" />
+        </label>
+    </p>
+    <p class="input-header">内容　<span class="require-tag">必須</span></p>
+    <p>
+        <label>
+            <textarea class="input-field" rows="8" name="message"></textarea>
+        </label>
+    </p>
+    <p>
+        <button type="submit" class="contact-submit-disabled" name="submit">送信する</button>
+    </p>
+</form>
+<script>
+    let inputList = document.querySelectorAll(".input-field");
+    let form = document.forms[name = "contact"].elements
+    let submit = document.forms[name = "contact"].elements[name = "submit"]
+    let isReady = false;
+
+    const checkReady = () => {
+        return ((form[name = "name"].value !== "") && (form[name = "email"].value !== "") && (form[name = "message"].value !== ""))
+    }
+
+    const submitTransform = () => {
+        if (isReady) {
+            submit.disabled = false
+            submit.className = "contact-submit"
+        } else {
+            submit.disabled = true
+            submit.className = "contact-submit-disabled"
+        }
+    }
+
+    for (let inp of inputList) {
+        inp.addEventListener("keyup", function () {
+            isReady = checkReady()
+            submitTransform()
+        })
+    }
+</script>
+
+{{- end  }}
