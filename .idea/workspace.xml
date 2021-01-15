@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e123f7-bc33-473a-b8fc-34491312c9d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/contact.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/extended/extended_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/extended/extended_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/post-single.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/post-single.css" afterDir="false" />
@@ -60,7 +57,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />

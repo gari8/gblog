@@ -8,19 +8,21 @@
     <p class="input-header">おなまえ　<span class="require-tag">必須</span></p>
     <p>
         <label>
-            <input class="input-field" type="text" name="name" />
+            <input class="input-field" type="text" name="name" maxlength="100" />
         </label>
     </p>
     <p class="input-header">メールアドレス　<span class="require-tag">必須</span></p>
     <p>
         <label>
-            <input class="input-field" type="email" name="email" />
+            <input class="input-field" type="email" name="email"
+                   pattern="^[a-zA-Z0-9.!#$&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$"
+            />
         </label>
     </p>
     <p class="input-header">内容　<span class="require-tag">必須</span></p>
     <p>
         <label>
-            <textarea class="input-field" rows="8" name="message"></textarea>
+            <textarea class="input-field" rows="8" name="message" maxlength="400"></textarea>
         </label>
     </p>
     <p>
@@ -34,7 +36,12 @@
     let isReady = false;
 
     const checkReady = () => {
-        return ((form[name = "name"].value !== "") && (form[name = "email"].value !== "") && (form[name = "message"].value !== ""))
+        const ptn = new RegExp(form[name = "email"].pattern)
+        const emailCheck = ptn.test(form[name = "email"].value) && form[name = "email"].value.length < 100
+        const nameCheck = form[name = "name"].value !== "" && form[name = "name"].value.length < 100
+        const messageCheck = form[name = "message"].value !== "" && form[name = "message"].value.length < 400
+        console.log(nameCheck, "\n", emailCheck, "\n", messageCheck, "\n")
+        return (nameCheck && emailCheck && messageCheck)
     }
 
     const submitTransform = () => {
